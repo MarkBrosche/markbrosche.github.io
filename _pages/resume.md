@@ -8,4 +8,4 @@ permalink: /resume/
 author_profile: true
 ---
 
-<iframe src="https://drive.google.com/file/d/1NTW3itLaKVIAwie1mTdOji1ByPOZT1a4/preview" width="100%" height="400px"></iframe>
+<iframe src="https://drive.google.com/file/d/1NTW3itLaKVIAwie1mTdOji1ByPOZT1a4/preview" width="100%" height="800px"></iframe>
