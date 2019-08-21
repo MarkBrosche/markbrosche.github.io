@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Mark Brosche"
-  avatar : "/assets/images/bio.jpg"
+  avatar : "/assets/images/headshot.jpg"
   location: San Francisco, CA
   links:
     - label: "Blog"
