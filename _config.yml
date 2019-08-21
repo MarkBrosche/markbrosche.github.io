@@ -1,0 +1,70 @@
+title: Mark Brosche
+email: mark.brosche@gmail.com
+description: # >- this means to ignore newlines until "baseurl:"
+  Mark Brosche's personal website.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+github_username:  MarkBrosche
+
+# Build settings
+markdown: kramdown
+remote_theme: "mmistakes/minimal-mistakes@4.13.0"
+# minimal_mistakes_skin: "dirt"
+plugins:
+  - jekyll-include-cache
+  - jekyll-feed
+  - jekyll-remote-theme
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+
+include: ["_pages"]
+
+author:
+  name: "Mark Brosche"
+  avatar: ""
+  location: San Francisco, CA
+  linkedin: markbrosche/
+  github: MarkBrosche
+  # uri:
+
+defaults:
+  # _posts
+  - scope:
+      path: "_posts"
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
+  - scope:
+      path: "assets/img"
+    values:
+      image: true
+
+head_scripts:
+  - /assets/js/form.js
+
+footer_scripts:
+  - /assets/js/main.min.js
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
+
+github: [metadata]
+encoding: UTF-8
+kramdown:
+  input: GFM
+  hard_wrap: false
