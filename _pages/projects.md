@@ -19,6 +19,6 @@ title: "Projects"
 
 [Dynamic Depth of Field HMD](https://drive.google.com/open?id=1C4EfZhXr0-ocq4Z7vP7fQWkmf4nkuEBd)
 
-[OpenGL 3.0 Quaternian Orbit Project](https://drive.google.com/open?id=1ivDRDrZ-T3X9veExEKZM0RVKpzjLBfdE)
+[OpenGL 3.0 Quaternion Orbit Project](https://drive.google.com/open?id=1ivDRDrZ-T3X9veExEKZM0RVKpzjLBfdE)
 
 [OpenGL 3.0 Shooting Gallery](https://drive.google.com/file/d/1VLpVX2h9FrAKQwVVd02E1tp8MRURmpm_/view)
