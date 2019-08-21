@@ -1,0 +1,4 @@
+---
+permalink: /gallery/
+title: "Gallery"
+---
