@@ -18,9 +18,9 @@ email: mark.brosche@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mark Brosche's Professional Portfolio.  See where I've been, what I've learned, and what's next.
 github_username: MarkBrosche
-theme: minimal-mistakes-jekyll
-remote_theme: mmistakes/minimal-mistakes
-minimal_mistakes_skin: neon
+theme: jekyll-theme-modernist
+remote_theme: jekyll-theme-modernist
+#minimal_mistakes_skin: neon
 search: true
 
 # Build settings
