@@ -6,9 +6,23 @@ author_profile: true
 feature_row:
   - image_path: /assets/images/selfies/GDC2017.PNG
     alt: "Hello"
-    title: "Waving hello"
-    excerpt: Hi There
     image_url: /images/selfies/GDC2017.PNG
+
+  - image_path: /assets/images/style/vrmagic.png
+    alt: "Hello"
+    image_url: /images/style/vrmagic.png
+
+  - image_path: /assets/images/hifi/rocket.png
+    alt: "Hello"
+    image_url: /images/hifi/rocket.png
+ 
+  - image_path: /assets/images/hifi/rocket.png
+    alt: "Hello"
+    image_url: /images/hifi/rocket.png   
+    
+  - image_path: /assets/images/personal/Mark_Tuba_Vive.gif.gif
+    alt: "Hello"
+    image_url: /images/personal/Mark_Tuba_Vive.gif.gif   
 ---
 <h1 class="text-center">Hi, I'm Mark!</h1>
 
