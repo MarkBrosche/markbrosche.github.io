@@ -6,3 +6,7 @@ author_profile: true
 ---
 
 Greetings from the Metaverse! My site is under construction, but thanks for visiting! If you wish to contact me, me information is on my resume or you can reach out to me on LinkedIn.
+
+<a href="/assets/images/selfies/GDC2017.png" title="Hello">
+  <img src="/assets/images/selfies/GDC2017.png" alt="Hello" style="width: 400px" />
+</a> 
