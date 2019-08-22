@@ -4,11 +4,11 @@ permalink: /
 date: 2019-08-21
 author_profile: true
 feature_row:
-  - image_path: /assets/images/selfies/GDC2017.png
+  - image_path: /assets/images/selfies/GDC2017.PNG
     alt: "Hello"
     title: "Waving hello"
     excerpt: Hi There
-    image_url: /images/selfies/GDC2017.png
+    image_url: /images/selfies/GDC2017.PNG
 ---
 <h1 class="text-center">Hi, I'm Mark!</h1>
 
