@@ -18,9 +18,9 @@ email: mark.brosche@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Mark Brosche's Professional Portfolio.  See where I've been, what I've learned, and what's next.
 github_username: MarkBrosche
-theme: jekyll-theme-modernist
-remote_theme: jekyll-theme-modernist
-#minimal_mistakes_skin: neon
+theme: minimal-mistakes-jekyll
+remote_theme: mmistakes/minimal-mistakes
+minimal_mistakes_skin: neon
 search: true
 
 # Build settings
@@ -58,7 +58,7 @@ plugins:
 
 author:
   name   : "Mark Brosche"
-  avatar : "/assets/images/headshot.jpg"
+  avatar : "/assets/images/rainbowrays2.png"
   location: San Francisco, CA
   links:
     - label: "Blog"
@@ -81,17 +81,17 @@ footer:
       url: "https://www.linkedin.com/in/markbrosche/"
 
 defaults:
-  # # _posts
-  # - scope:
-  #     path: ""
-  #     type: posts
-  #   values:
-  #     layout: single
-  #     author_profile: true
-  #     read_time: true
-  #     comments: true
-  #     share: true
-  #     related: true
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      author_profile: true
+      read_time: true
+      comments: true
+      share: true
+      related: true
   # _pages
   - scope:
       path: "_pages"
