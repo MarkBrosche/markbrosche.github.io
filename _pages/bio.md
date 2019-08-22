@@ -12,6 +12,7 @@ Since then, I have nearly completed my graduate degree in Computational Simulati
 Most recently I was part of High Fidelity, the Open Source Social VR platform founded by the creator of Second Life, Philip Rosedale.  There I was on the experiences team and created content for large events, blue-prints for users to rework, and more.
 
 **Words I try to live by:**
+
 *"Every job done is a self-portrait of the person who did it; autograph your work with excellence."*
 
 *"Everything matters to those to whom it matters."*
