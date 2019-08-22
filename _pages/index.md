@@ -28,7 +28,7 @@ feature_row:
     excerpt: "Demoing 3D capture with Tiltbrush at CES 2016"
     image_url: /images/personal/Mark_Tuba_Vive.gif.gif   
 ---
-<h1 class="text-center">Hi, I'm Mark!</h1>
+<h1 class="text-center">Welcome Traveler</h1>
 
 <p class="text-center">XR Engineer and Consultant</p>
 <p class="text-center">Computational Modeling and Simulation Engineer | Mechanical Engineer | Gaymer | Musician | Pastry Chef</p>
@@ -37,6 +37,6 @@ Greetings from the Metaverse! My site is under construction, but thanks for visi
 
 {% include feature_row %}
 
-<!-- <a href="/assets/images/selfies/GDC2017.png" title="Hello">
-  <img src="/assets/images/selfies/GDC2017.png" alt="Hello" style="width: 400px" />
-</a>  -->
+<a href="/assets/images/selfies/GDC2017.PNG" title="Hello">
+  <img src="/assets/images/selfies/GDC2017.PNG" alt="Hello" style="width: 400px" />
+</a> 

@@ -12,3 +12,5 @@ gallery:
   - url: /assets/images/selfies/giphy (1).gif
     image_path: assets/images/selfies/giphy (1).gif
 ---
+
+{% include gallery %}
