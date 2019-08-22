@@ -4,11 +4,6 @@ permalink: /
 date: 2019-08-21
 author_profile: true
 feature_row:
-  - image_path: /assets/images/selfies/GDC2017.PNG
-    alt: "Hi"
-    title: "Hello"
-    image_url: /images/selfies/GDC2017.PNG
-
   - image_path: /assets/images/style/vrmagic.png
     alt: "magic"
     title: "VR"

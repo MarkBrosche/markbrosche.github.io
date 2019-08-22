@@ -10,3 +10,12 @@ I started my professional career as a mechanical engineer out of Florida State U
 Since then, I have nearly completed my graduate degree in Computational Simulation Engineering at Old Dominion University (graduating Fall 2019!), laid the foundations for VR training for nuclear reactor operations by creating 2 proof of concept demonstrations merging physical tactile equipment and VR environments (like [the Void](https://www.thevoid.com)) and 1 deployed trainer between 2016 and 2018.
 
 Most recently I was part of High Fidelity, the Open Source Social VR platform founded by the creator of Second Life, Philip Rosedale.  There I was on the experiences team and created content for large events, blue-prints for users to rework, and more.
+
+**Words I try to live by:**
+*"Every job done is a self-portrait of the person who did it; autograph your work with excellence."*
+
+*"Everything matters to those to whom it matters."*
+
+*"Strive for the highest."*
+
+![Looking up](/assets/images/selfies/giphy (1).gif)
