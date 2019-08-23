@@ -660,7 +660,7 @@ section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/header-bg3.png');
     background-position: center center;
-    background-repeat: no-repeat;
+    background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     background-size: cover;
