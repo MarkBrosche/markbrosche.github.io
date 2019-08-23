@@ -11,7 +11,5 @@ project-date: May 2019
 company: High Fidelity
 category: VR Content / Web Development
 description: Remote teams that share an online 3D space in High Fidelity need to be able to reserve rooms in their virtual space and see if a room is available, reserved, or otherwise occupied.  This application queries your company's Google Calendar for meeting rooms and appointments which are then displayed on posters in your virtual work environment that show the schedule for each room and who is currently using the room.  Setup is performed by your company's G Suite administrator or office manager though a simple app in High Fidelity.
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/2KmXllrBNHw?start=80" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 ---
 
