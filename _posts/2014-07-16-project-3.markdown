@@ -1,15 +1,15 @@
 ---
-title: Golden
-subtitle: Website Design
+title: Trivia
+subtitle: VR Content
 layout: default
 modal-id: 3
-date: 2014-07-16
-img: golden.png
-thumbnail: golden-thumbnail.png
+date: 2018-10-15
+img: trivia.png
+thumbnail: trivia-thumbnail.png
 alt: image-alt
-project-date: April 2014
-client: Start Bootstrap
-category: Web Development
+project-date: October 2018
+company: High Fidelity
+category: VR Content
 description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
 
 ---
