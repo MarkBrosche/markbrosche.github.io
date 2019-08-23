@@ -12,14 +12,17 @@ people:
 - name: Mark Brosche
   pic: 1
   position: XR Engineer
+  location: San Francisco, CA
   social:
-    - title: LinkedIn
-      url: https://www.linkedin.com/in/markbrosche/#
-    - title: Github
-      url: https://github.com/MarkBrosche
-    - title: Medium
-      url: https://medium.com/@brosche
-
+    - label: "Blog"
+      icon: "fas fa-fw fa-link"
+      url: "https://medium.com/@brosche"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/MarkBrosche"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://www.linkedin.com/in/markbrosche/"
 
 
 # Build settings
