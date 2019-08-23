@@ -1,5 +1,5 @@
 ---
-title: Google Calendar for Virtual Meeting Spaces
+title: Meeting Room Connector
 subtitle: VR Content 
 layout: default
 modal-id: 1

@@ -14,15 +14,12 @@ people:
   position: XR Engineer
   location: San Francisco, CA
   social:
-    - label: "Blog"
-      icon: "fas fa-fw fa-link"
-      url: "https://medium.com/@brosche"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/MarkBrosche"
-    - label: "LinkedIn"
-      icon: "fab fa-fw fa-linkedin"
+    - title: linkedin
       url: "https://www.linkedin.com/in/markbrosche/"
+    - title: github
+      url: "https://www.linkedin.com/in/markbrosche/"
+    - title: medium
+      url: "https://medium.com/@brosche"
 
 
 # Build settings
