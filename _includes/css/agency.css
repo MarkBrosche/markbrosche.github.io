@@ -293,7 +293,7 @@ header .intro-text .intro-lead-in {
     line-height: 22px;
 }
 
-.intro-heading1 {
+header .intro-headings {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: "Major Mono Display";
