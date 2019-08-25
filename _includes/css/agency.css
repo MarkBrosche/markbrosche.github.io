@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    background: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -130,7 +130,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-image: linear-gradient(to right, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    background-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
 }
 
 .btn-xl:hover,
@@ -140,7 +140,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
     color: #000000;
-    background-image: linear-gradient(to right, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    background-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
 }
 
 .btn-xl:active,
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,cursive;
-    background: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    background: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -304,7 +304,6 @@ header .intro-headings {
     margin-bottom: 25px;
     text-transform: uppercase;
     font-family: "Major Mono Display";
-    text-shadow: 2px 2px 4px #000000;
     font-size: 70px;
     font-weight: 700;
     line-height: 50px;
