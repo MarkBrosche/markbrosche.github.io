@@ -15,7 +15,9 @@ body {
 }
 
 .text-primary {
-    color: #{{ site.data.template.color.primary }};
+    color: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 p {
@@ -127,7 +129,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
 }
 
 .btn-xl:hover,
@@ -137,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
     border-color: #{{ site.data.template.color.primary }};
     color: #000000;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: -webkit-linear-gradient(0deg, #d900ff 10%,  #528bff 20%, #00ffae 50%);
 }
 
 .btn-xl:active,
