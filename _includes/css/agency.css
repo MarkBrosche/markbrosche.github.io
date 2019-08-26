@@ -181,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,cursive;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -191,7 +191,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -203,7 +203,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fff;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -215,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -235,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -244,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #000;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -405,8 +405,8 @@ section h3.section-subheading {
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
-    background: rgba(35, 65, 48, 0.9); /* Fallback when no plugin support */
-    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: rgba(0, 255, 157, 0.548); /* Fallback when no plugin support */
+    background: linear-gradient(60deg, #00ffaea8 10%, #528cffa8 50%, #ff3700ab  90%);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
