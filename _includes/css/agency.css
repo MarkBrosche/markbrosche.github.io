@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -73,12 +73,12 @@ h6 {
 }
 
 .btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #ffffff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #fff;
+    background-color: #000;
 }
 
 .btn-primary:hover,
@@ -86,9 +86,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-color: #{{ site.data.template.color.primary }};
+    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
     color: #000000;
-    background-color: #{{ site.data.template.color.secondary }};
+    background-color: #fff;
 }
 
 .btn-primary:active,
@@ -112,8 +112,8 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background-color: #000;
 }
 
 .btn-primary .badge {
@@ -123,14 +123,14 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-color: #{{ site.data.template.color.primary }};
+    border-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: #000;
 }
 
 .btn-xl:hover,
@@ -138,9 +138,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-color: #{{ site.data.template.color.primary }};
+    border-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     color: #000000;
-    background-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: #ffffff;
 }
 
 .btn-xl:active,
@@ -180,7 +180,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,cursive;
-    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: -webkit-linear-gradient(-45deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -190,7 +190,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    background: -webkit-linear-gradient(0deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -201,8 +201,11 @@ fieldset[disabled] .btn-xl.active {
 }
 
 .navbar-default .navbar-toggle {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: #fff;
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-default .navbar-toggle .icon-bar {
@@ -211,7 +214,10 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background-color: #{{ site.data.template.color.primary }};
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-default .nav li a {
@@ -228,13 +234,19 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    color: #{{ site.data.template.color.primary }};
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
-    color: #fff;
-    background-color: #{{ site.data.template.color.primary }};
+    color: #000;
+    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 .navbar-default .navbar-nav>.active>a:hover,
@@ -305,7 +317,7 @@ header .intro-headings {
     text-transform: uppercase;
     font-family: "Major Mono Display";
     font-size: 70px;
-    font-weight: 700;
+    font-weight: 400;
     line-height: 50px;
 }
 
