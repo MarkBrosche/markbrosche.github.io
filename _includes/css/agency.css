@@ -533,7 +533,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
-    background-color: #{{ site.data.template.color.primary }};
+    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
 }
 
 .timeline>li .timeline-image h4 {
@@ -724,7 +724,7 @@ section#contact .form-group textarea.form-control {
 }
 
 section#contact .form-control:focus {
-    border-color: #{{ site.data.template.color.primary }};
+    border-color: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
     box-shadow: none;
 }
 
@@ -802,7 +802,8 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: #{{ site.data.template.color.primary }};
+    background-color: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background-attachment: fixed;
 }
 
 .btn:focus,
@@ -885,12 +886,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
 }
 
 ::selection {
     text-shadow: none;
-    background: #{{ site.data.template.color.primary }};
+    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
 }
 
 img::selection {
