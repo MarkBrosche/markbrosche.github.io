@@ -804,6 +804,7 @@ ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
     background: linear-gradient(60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background-attachment: fixed;
 }
 
 .btn:focus,
