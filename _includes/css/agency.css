@@ -319,7 +319,7 @@ header .intro-headings {
     font-size: 70px;
     font-weight: 400;
     line-height: 50px;
-    background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  60%);
     background-attachment: local;
     background-clip: text;
     -webkit-background-clip: text;
@@ -533,7 +533,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
-    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: linear-gradient(60deg, #00ffae 0%, #528bff 50%, #ff3700  100%);
 }
 
 .timeline>li .timeline-image h4 {
@@ -802,8 +802,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background-color: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
-    background-attachment: fixed;
+    background: linear-gradient(60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
 }
 
 .btn:focus,
