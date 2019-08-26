@@ -319,7 +319,8 @@ header .intro-headings {
     font-size: 70px;
     font-weight: 400;
     line-height: 50px;
-    -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background-attachment: local;
 }
 
 header .intro-text .intro-heading {
