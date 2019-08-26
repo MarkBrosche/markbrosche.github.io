@@ -534,7 +534,7 @@ section h3.section-subheading {
     border-radius: 100%;
     text-align: center;
     color: rgb(0, 0, 0);
-    background: linear-gradient(60deg, #00ffae 0%, #528bff 50%, #ff3700  100%);
+    background: linear-gradient(60deg,#528bff 0%, #ff004c  100%);
 }
 
 .timeline>li .timeline-image h4 {
@@ -707,28 +707,6 @@ section#contact .section-heading {
     color: #fff;
 }
 
-section#contact .form-group {
-    margin-bottom: 25px;
-}
-
-section#contact .form-group input,
-section#contact .form-group textarea {
-    padding: 20px;
-}
-
-section#contact .form-group input.form-control {
-    height: auto;
-}
-
-section#contact .form-group textarea.form-control {
-    height: 236px;
-}
-
-section#contact .form-control:focus {
-    border-color: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
-    box-shadow: none;
-}
-
 section#contact::-webkit-input-placeholder {
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -803,8 +781,7 @@ ul.social-buttons li a {
 ul.social-buttons li a:hover,
 ul.social-buttons li a:focus,
 ul.social-buttons li a:active {
-    background: linear-gradient(60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
-    background-attachment: fixed;
+    background: linear-gradient(60deg, #00ffae 0%, #528bff 100%);
 }
 
 .btn:focus,
