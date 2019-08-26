@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae, #528bff , #ff3700 );
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
