@@ -321,6 +321,9 @@ header .intro-headings {
     line-height: 50px;
     background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
     background-attachment: local;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
 }
 
 header .intro-text .intro-heading {
