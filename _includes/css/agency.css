@@ -15,8 +15,9 @@ body {
 }
 
 .text-primary {
-    background: -webkit-linear-gradient(-60deg, #00ffae, #528bff , #ff3700 );
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
+    background-attachment: fixed;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -73,11 +74,11 @@ h6 {
 }
 
 .btn-primary {
-    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: #fff;
+    color: rgba(0,0,0,0.2);
     background-color: #000;
 }
 
@@ -86,7 +87,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     color: #000000;
     background-color: #fff;
 }
@@ -112,7 +113,7 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-image: linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-color: #000;
 }
 
@@ -123,7 +124,7 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -138,7 +139,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-image: linear-gradient(to right, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     color: #000000;
     background: #ffffff;
 }
@@ -180,7 +181,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,cursive;
-    background: -webkit-linear-gradient(-45deg, #d900ff 30%,  #528bff 50%, #00ffae 80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -190,7 +191,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -202,7 +203,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fff;
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -214,7 +215,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -234,7 +235,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -243,7 +244,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #000;
-    background: -webkit-linear-gradient(-45deg, #d0ff00 15%,  #00ffae 30%, #528bff 40%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -291,7 +292,7 @@ header {
     color: #fff;
     background-attachment: scroll;
     background-image: url('{{ site.baseurl }}/img/header-bg8.png');
-    background-position: center center;
+    background-position: center bottom;
     background-repeat: none;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -404,7 +405,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(35, 65, 48, 0.9); /* Fallback when no plugin support */
-    background: rgba({{ site.data.template.color.primary | hex_to_rgb | join: ',' }}, .9);
+    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
