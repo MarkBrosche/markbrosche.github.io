@@ -47,7 +47,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-    color: #{{ site.data.template.color.secondary }};
+    color: #fff;
 }
 
 h1,
@@ -76,10 +76,10 @@ h6 {
 .btn-primary {
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
     font-weight: 700;
-    color: rgba(0,0,0,0.2);
-    background-color: #000;
+    color: rgba(0, 0, 0, 0.623);
+    background-color: rgba(255, 255, 255, 0.555);
+    font-family: {{ site.data.template.font.primary }};
 }
 
 .btn-primary:hover,
@@ -87,6 +87,7 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
+    border-width: 5px;
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
     color: #000000;
     background-color: #fff;
