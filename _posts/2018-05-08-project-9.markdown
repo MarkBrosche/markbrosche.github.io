@@ -2,7 +2,7 @@
 title: Mixed Reality Demo No. 2
 subtitle: VR Training
 layout: default
-modal-id: 3
+modal-id: 9
 date: 2018-10-15
 img: isu.png
 thumbnail: isu-thumbnail.png
