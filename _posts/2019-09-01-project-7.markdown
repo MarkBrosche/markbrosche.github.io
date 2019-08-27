@@ -4,7 +4,7 @@ subtitle: Oculus Quest
 layout: default
 modal-id: 5
 date: 2019-09-01
-img: zpmech.png
+img: zpmech.PNG
 thumbnail: zpmech-thumbnail.png
 alt: image-alt
 project-date: September 2019
