@@ -132,14 +132,13 @@ fieldset[disabled] .btn-primary.active {
 
 .btn-xl {
     padding: 20px 40px;
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
-    border-radius: 3px;
+    border: 2px solid #fff;
+    border-radius: 5px;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
-    border: 5px solid rgb(255, 255, 255);
     color: #fff;
-    background: rgba(0, 0, 0, 0.473);
+    background: rgba(0, 0, 0, 0.801);
     font-family: {{ site.data.template.font.primary }};
 }
 
@@ -148,7 +147,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border: 5px solid linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);;
+    border: 2px solid;
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
+    border-radius: 5px;
     background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -176,12 +177,26 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: rgba(255, 255, 255, 0.76);
-    background: rgba(85, 85, 85, 0.534);
+    padding: 20px 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.801);
+    font-family: {{ site.data.template.font.primary }};
 }
 .btn-xl .badge {
-    color: rgb(255, 255, 255);
-    background: #0000006e;
+    padding: 20px 40px;
+    border: 2px solid #fff;
+    border-radius: 5px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(0, 0, 0, 0.801);
+    font-family: {{ site.data.template.font.primary }};
 }
 
 .navbar-default {
