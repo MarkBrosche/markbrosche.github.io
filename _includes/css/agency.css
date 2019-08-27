@@ -297,7 +297,7 @@ header {
     text-align: center;
     color: #fff;
     background-image: url('{{ site.baseurl }}/img/header-bg9.png');
-    background-position: center top;
+    background-position: center center;
     background-repeat: no-repeat;
     -webkit-background-size: contain;
     -moz-background-size: contain;
@@ -702,11 +702,11 @@ section#contact {
     background-color: #222;
     background-image: url('{{ site.baseurl }}/img/header-bg10.png');
     background-position: center center;
-    background-repeat: none;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    background-size: cover;
-    -o-background-size: cover;
+    background-repeat: no-repeat;
+    -webkit-background-size: contain;
+    -moz-background-size: contain;
+    background-size: contain;
+    -o-background-size: contain;
 }
 
 section#contact .section-heading {
