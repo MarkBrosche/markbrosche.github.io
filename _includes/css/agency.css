@@ -318,7 +318,8 @@ header .intro-text .intro-lead-in {
 header .intro-headings {
     margin-bottom: 10px;
     font-family: "Major Mono Display";
-    font-size: 80px;
+
+    font-size: 70vw;
     font-weight: 400;
     line-height: 50px;
     background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 40%, #ff002b  55%);
@@ -339,8 +340,8 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 300px;
-        padding-bottom: 200px;
+        padding-top: 200px;
+        padding-bottom: 300px;
     }
 
     header .intro-text .intro-lead-in {
@@ -413,6 +414,7 @@ section h3.section-subheading {
     transition: all ease .5s;
     background: rgba(0, 255, 157, 0.548); /* Fallback when no plugin support */
     background: linear-gradient(60deg, #00ffaea8 10%, #528cffa8 50%, #ff002bab  90%);
+    background-attachment: fixed;
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -789,7 +791,7 @@ ul.social-buttons li a:active {
 .btn:active,
 .btn.active,
 .btn:active:focus {
-    outline: 0;
+    outline: 5px;
 }
 
 .portfolio-modal .modal-content {
