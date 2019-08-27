@@ -306,7 +306,7 @@ header {
 }
 
 header .intro-text {
-    padding-top: 50px;
+    padding-top: 100px;
     padding-bottom: 50px;
 }
 
@@ -324,7 +324,7 @@ header .intro-headings {
 
     font-size: 7vw;
     font-weight: 400;
-    line-height: 7vh;
+    line-height: 8vh;
     background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 40%, #ff002b  55%);
     background-attachment: local;
     background-clip: text;
@@ -343,7 +343,7 @@ header .intro-text .intro-heading {
 
 @media(min-width:768px) {
     header .intro-text {
-        padding-top: 200px;
+        padding-top: 250px;
         padding-bottom: 300px;
     }
 
