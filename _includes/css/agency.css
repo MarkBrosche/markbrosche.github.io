@@ -293,7 +293,7 @@ header {
     text-align: center;
     color: #fff;
     background-attachment: scroll;
-    background-image: url('{{ site.baseurl }}/img/header-bg8.png');
+    background-image: url('{{ site.baseurl }}/img/header-bg9.png');
     background-position: center top;
     background-repeat: none;
     -webkit-background-size: cover;
