@@ -22,6 +22,10 @@ body {
     -webkit-text-fill-color: transparent;
 }
 
+.text-white {
+    color: #fff;
+}
+
 p {
     font-size: 14px;
     line-height: 1.75;
