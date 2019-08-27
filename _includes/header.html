@@ -57,10 +57,17 @@
             <div class="intro-text">
                 <div class="intro-lead-in">Hello Worlds, I'm Mark</div>
                 <div class="intro-headings text-primary">XR EnGiNeeR<br><br><br></div>                
-                <button href='#news'  class="page-scroll btn btn-xl">What's new</button>
+                <button href='#news' onclick="goToAnchor('news')" class="page-scroll btn btn-xl">What's new</button>
             </div>
         </div>
     </header>
+    <script>
+        function goToAnchor(anchor) {
+            var loc = document.location.toString().split('#')[0];
+            document.location = loc + '#' + anchor;
+            return false;
+        }
+    </script>
 <!--
         {% for page in site.pages %}
           {% if page.title %}<a class="page-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>{% endif %}
