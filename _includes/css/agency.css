@@ -290,7 +290,7 @@ fieldset[disabled] .btn-xl.active {
 }
 
 header {
-    text-align: center;
+    text-align: center top;
     color: #fff;
     background-attachment: local;
     background-image: url('{{ site.baseurl }}/img/header-bg9.png');
