@@ -1,0 +1,15 @@
+---
+title: Mixed Reality Demo No. 1
+subtitle: VR Training
+layout: default
+modal-id: 3
+date: 2016-8-25
+img: mrtd.png
+thumbnail: mrtd-thumbnail.png
+alt: image-alt
+project-date: August 2016
+company: NNL
+category: VR Content
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---

@@ -1,0 +1,15 @@
+---
+title: Mixed Reality Demo No. 2
+subtitle: VR Training
+layout: default
+modal-id: 3
+date: 2018-10-15
+img: isu.png
+thumbnail: isu-thumbnail.png
+alt: image-alt
+project-date: May 2018
+company: NNL
+category: VR Content
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---

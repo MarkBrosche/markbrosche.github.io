@@ -1,0 +1,15 @@
+---
+title: Zero Point Mechanics
+subtitle: Oculus Quest
+layout: default
+modal-id: 5
+date: 2019-09-01
+img: zpmech.png
+thumbnail: zpmech-thumbnail.png
+alt: image-alt
+project-date: September 2019
+client: Personal
+category: VR Content
+description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+
+---
