@@ -78,14 +78,11 @@ h6 {
 }
 
 .btn-primary {
-    border: 3px solid;
-    border-radius: 3px;
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
-    border-image-slice: 1;
+    border: 3px solid #fff;
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.555);
+    background-color: rgba(77, 77, 77, 0.705);
     font-family: {{ site.data.template.font.primary }};
 }
 
@@ -103,7 +100,9 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    background-image: none;
+    border-image: rgb(66, 66, 66);
+    color: #000000ab;
+    background-color: rgba(255, 255, 255, 0.849);
 }
 
 .btn-primary.disabled,
@@ -121,19 +120,19 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
-    background-color: rgb(0, 0, 0);
+    color: #666;
+    border: 3px solid #222;
+    background-color: #000;
 }
 
 .btn-primary .badge {
     color: rgb(255, 255, 255);
-    background-color: rgba(0, 0, 0, 0.445);
+    background-color: rgba(161, 161, 161, 0.603);
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border: 2px solid #fff;
-    border-radius: 5px;
+    border: 3px solid #fff;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -147,10 +146,9 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border: 2px solid;
+    border: 3px solid;
     border-image: linear-gradient(120deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     border-image-slice: 1;
-    border-radius: 5px;
     background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     background-clip: text;
     -webkit-background-clip: text;
@@ -179,25 +177,18 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
     padding: 20px 40px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    text-transform: uppercase;
+    border: 3px solid #fff;
     font-size: 18px;
     font-weight: 700;
     color: #fff;
     background: rgba(0, 0, 0, 0.801);
-    font-family: {{ site.data.template.font.primary }};
 }
+
 .btn-xl .badge {
     padding: 20px 40px;
-    border: 2px solid #fff;
-    border-radius: 5px;
-    text-transform: uppercase;
-    font-size: 18px;
-    font-weight: 700;
+    border: 3px solid #fff;
     color: #fff;
     background: rgba(0, 0, 0, 0.801);
-    font-family: {{ site.data.template.font.primary }};
 }
 
 .navbar-default {
