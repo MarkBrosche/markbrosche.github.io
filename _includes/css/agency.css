@@ -79,6 +79,7 @@ h6 {
 
 .btn-primary {
     border: 3px solid #fff;
+    border-radius: 0;
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(255, 255, 255);
@@ -92,6 +93,8 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
+    border: 3px solid;
+    border-radius: 0;
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     color: #00000073;
     background-color: rgba(255, 255, 255, 0.849);
@@ -100,7 +103,8 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-image: rgb(66, 66, 66);
+    border: 3px solid rgb(66, 66, 66);
+    border-radius: 0;
     color: #000000ab;
     background-color: rgba(255, 255, 255, 0.849);
 }
@@ -133,6 +137,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl {
     padding: 20px 40px;
     border: 3px solid #fff;
+    border-radius: 0;
     text-transform: uppercase;
     font-size: 18px;
     font-weight: 700;
@@ -147,6 +152,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border: 3px solid;
+    border-radius: 0;
     border-image: linear-gradient(120deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     border-image-slice: 1;
     background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
@@ -804,7 +810,7 @@ ul.social-buttons li a:active {
 .btn:active,
 .btn.active,
 .btn:active:focus {
-    outline: 5px;
+    outline: 3px;
 }
 
 .portfolio-modal .modal-content {
