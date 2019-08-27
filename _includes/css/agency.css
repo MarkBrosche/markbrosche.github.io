@@ -15,7 +15,7 @@ body {
 }
 
 .text-primary {
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     background-clip: text;
     background-attachment: fixed;
     -webkit-background-clip: text;
@@ -40,7 +40,7 @@ a.active {
 }
 
 a {
-    color: #{{ site.data.template.color.primary }};
+    color: rgb(255, 0, 200);
 }
 
 a:hover,
@@ -74,7 +74,7 @@ h6 {
 }
 
 .btn-primary {
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     text-transform: uppercase;
     font-weight: 700;
     color: rgba(0, 0, 0, 0.623);
@@ -88,9 +88,9 @@ h6 {
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
     border-width: 5px;
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
-    color: #000000;
-    background-color: #fff;
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
+    color: #00000073;
+    background-color: rgba(255, 255, 255, 0.527);
 }
 
 .btn-primary:active,
@@ -114,18 +114,18 @@ fieldset[disabled] .btn-primary:active,
 .btn-primary.disabled.active,
 .btn-primary[disabled].active,
 fieldset[disabled] .btn-primary.active {
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
-    background-color: #000;
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
+    background-color: rgb(0, 0, 0);
 }
 
 .btn-primary .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    color: rgba(0, 0, 0, 0.438);
+    background-color: rgba(255, 255, 255, 0.445);
 }
 
 .btn-xl {
     padding: 20px 40px;
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     border-radius: 3px;
     text-transform: uppercase;
     font-family: {{ site.data.template.font.primary }};
@@ -140,9 +140,10 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  90%);
-    color: #000000;
-    background: #ffffff;
+    border: 5px;
+    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
+    color: #0000007c;
+    background: #ffffff79;
 }
 
 .btn-xl:active,
@@ -166,13 +167,13 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: #{{ site.data.template.color.primary }};
-    background-color: #{{ site.data.template.color.primary }};
+    border-color: rgba(255, 255, 255, 0.527);
+    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
 }
 
 .btn-xl .badge {
-    color: #{{ site.data.template.color.primary }};
-    background-color: #fff;
+    color: rgba(0, 0, 0, 0.411);
+    background: #ffffff6e;
 }
 
 .navbar-default {
@@ -182,7 +183,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-brand {
     font-family: "Major Mono Display", "Helvetica Neue",Helvetica,Arial,cursive;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -192,7 +193,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-brand:focus,
 .navbar-default .navbar-brand:active,
 .navbar-default .navbar-brand.active {
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -204,7 +205,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle {
     border-color: #fff;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -216,7 +217,7 @@ fieldset[disabled] .btn-xl.active {
 
 .navbar-default .navbar-toggle:hover,
 .navbar-default .navbar-toggle:focus {
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -236,7 +237,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .nav li a:hover,
 .navbar-default .nav li a:focus {
     outline: 0;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -245,7 +246,7 @@ fieldset[disabled] .btn-xl.active {
 .navbar-default .navbar-nav>.active>a {
     border-radius: 0;
     color: #000;
-    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff3700  80%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -320,7 +321,7 @@ header .intro-headings {
     font-size: 70px;
     font-weight: 400;
     line-height: 50px;
-    background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  60%);
+    background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 40%, #ff002b  55%);
     background-attachment: local;
     background-clip: text;
     -webkit-background-clip: text;
@@ -411,7 +412,7 @@ section h3.section-subheading {
     -moz-transition: all ease .5s;
     transition: all ease .5s;
     background: rgba(0, 255, 157, 0.548); /* Fallback when no plugin support */
-    background: linear-gradient(60deg, #00ffaea8 10%, #528cffa8 50%, #ff3700ab  90%);
+    background: linear-gradient(60deg, #00ffaea8 10%, #528cffa8 50%, #ff002bab  90%);
 }
 
 #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
@@ -864,12 +865,12 @@ ul.social-buttons li a:active {
 
 ::-moz-selection {
     text-shadow: none;
-    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff002b  75%);
 }
 
 ::selection {
     text-shadow: none;
-    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff3700  75%);
+    background: linear-gradient(-60deg, #00ffae 25%, #528bff 50%, #ff002b  75%);
 }
 
 img::selection {
