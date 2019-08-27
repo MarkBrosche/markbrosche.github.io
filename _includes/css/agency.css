@@ -74,11 +74,12 @@ h6 {
 }
 
 .btn-primary {
+    border: 5px solid;
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     text-transform: uppercase;
     font-weight: 700;
-    color: rgba(0, 0, 0, 0.623);
-    background-color: rgba(255, 255, 255, 0.555);
+    color: rgb(255, 255, 255);
+    background-color: rgba(0, 0, 0, 0.555);
     font-family: {{ site.data.template.font.primary }};
 }
 
@@ -87,7 +88,6 @@ h6 {
 .btn-primary:active,
 .btn-primary.active,
 .open .dropdown-toggle.btn-primary {
-    border-width: 5px;
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     color: #00000073;
     background-color: rgba(255, 255, 255, 0.527);
@@ -128,11 +128,12 @@ fieldset[disabled] .btn-primary.active {
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     border-radius: 3px;
     text-transform: uppercase;
-    font-family: {{ site.data.template.font.primary }};
     font-size: 18px;
     font-weight: 700;
+    border: 5px solid rgb(255, 255, 255);
     color: #fff;
-    background: #000;
+    background: rgba(0, 0, 0, 0.473);
+    font-family: {{ site.data.template.font.primary }};
 }
 
 .btn-xl:hover,
@@ -140,7 +141,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl:active,
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
-    border: 5px;
+    border: 5px solid;
     border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     color: #0000007c;
     background: #ffffff79;
@@ -167,10 +168,9 @@ fieldset[disabled] .btn-xl:active,
 .btn-xl.disabled.active,
 .btn-xl[disabled].active,
 fieldset[disabled] .btn-xl.active {
-    border-color: rgba(255, 255, 255, 0.527);
-    background: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  80%);
+    border-color: rgba(255, 255, 255, 0.76);
+    background: rgba(85, 85, 85, 0.534);
 }
-
 .btn-xl .badge {
     color: rgba(0, 0, 0, 0.411);
     background: #ffffff6e;
@@ -319,7 +319,7 @@ header .intro-headings {
     margin-bottom: 10px;
     font-family: "Major Mono Display";
 
-    font-size: 30vw;
+    font-size: 5vw;
     font-weight: 400;
     line-height: 50px;
     background: -webkit-linear-gradient(-60deg, #00ffae 25%, #528bff 40%, #ff002b  55%);
