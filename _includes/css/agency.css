@@ -148,7 +148,7 @@ fieldset[disabled] .btn-primary.active {
 .btn-xl.active,
 .open .dropdown-toggle.btn-xl {
     border: 2px solid;
-    border-image: linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
+    border-image: linear-gradient(120deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
     border-image-slice: 1;
     border-radius: 5px;
     background: -webkit-linear-gradient(-60deg, #00ffae 10%, #528bff 50%, #ff002b  90%);
