@@ -1,0 +1,16 @@
+---
+title: Vending Machine Blueprint
+subtitle: VR Content
+layout: default
+modal-id: 10
+date: 2019-03-02
+img: vendmo.jpg
+thumbnail: vendmo-thumbnail.png
+alt: image-alt
+project-date: March 2019
+company: High Fidelity
+category: VR Content
+code: https://github.com/MarkBrosche/hifi-content/tree/master/marketplaceItems/vendingMachine
+description: I collaborated with my team lead to create this item for the High Fidelity Marketplace.  The vending machine allows users to populate it with marketplace items they curate for other users to easily access within their domains.  Useful for easy access to apps or items the owner wishes to advertise or to pair with events in their domain.  This item was created with instructions on Github so High Fidelity users could break it down and list their variants of it on the marketplace.
+
+---

@@ -9,7 +9,8 @@ thumbnail: isu-thumbnail.png
 alt: image-alt
 project-date: May 2018
 company: NNL
-category: VR Content
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+category: VR Content / Leadership / Simulation Engineering / Mechanical Engineering
+code: https://markbrosche.github.io/#portfolio
+description: I led a collaboration with Iowa State University to create a mixed reality diesel generator experience.  Demonstrating the capabilities of groups external to the laboratory to build immersive simulators at the level necessary for professional training.  This project involved using the HTC Vive, Leap Motion, and an aluminum frame outfitted with interactable parts from a 2kW military diesel generator connected though a Raspberry Pi to the PC running the Unity application.  This experience made novel use of computer vision to calibrate the VR space to the physical generator frame prior to entering the training.
 
 ---

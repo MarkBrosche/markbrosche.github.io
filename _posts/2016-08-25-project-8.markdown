@@ -9,7 +9,7 @@ thumbnail: mrtd-thumbnail.png
 alt: image-alt
 project-date: August 2016
 company: NNL
-category: VR Content
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
-
+category: VR Content / Leadership / Simulation Engineering / Mechanical Engineering
+code: https://markbrosche.github.io/#gallery
+description: I led and organized the training for and development of the first mixed reality technology demonstration for the Laboratory.  With a team of 15 engineers and artists behind me, I proved in a very big way that high quality training could be achieved with immersive simulators that cost a fraction of full scale replicated simulators currently in use.
 ---

@@ -10,6 +10,7 @@ alt: image-alt
 project-date: February 2019
 client: High Fidelity
 category: VR Content
-description: Lorem ipsum dolor sit amet, usu cu alterum nominavi lobortis. At duo novum diceret. Tantas apeirian vix et, usu sanctus postulant inciderint ut, populo diceret necessitatibus in vim. Cu eum dicam feugiat noluisse.
+code: https://github.com/MarkBrosche/hifi-content/tree/master/marketplaceItems/voiceScopeApp
+description: When visiting social domains within High Fidelity it can often be difficult to understand who might be talking in a group of people even with the spectacular spatial audio.  To improve the experience, I created the "Voice Scope App" that can be downloaded for free on the High Fidelity Marketplace.  The app visualizes the audio input level from each user around you as a level meter floating over their heads.  You can adjust the scope's height above other users' heads as well as whether it appears drawn in front of everything else, allowing you to see it through walls or other characters.
 
 ---
