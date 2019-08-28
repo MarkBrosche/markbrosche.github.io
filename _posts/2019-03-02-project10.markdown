@@ -1,10 +1,10 @@
 ---
-title: Vending Machine Blueprint
+title: Zero Point Mechanicsz
 subtitle: VR Content
 layout: default
 modal-id: 10
 date: 2019-03-02
-img: zpmech.jpg
+img: zpmech.PNG
 thumbnail: zpmech-thumbnail.png
 alt: image-alt
 project-date: March 2019
