@@ -1,14 +1,14 @@
 ---
-title: Zero Point Mechanicsz
+title: Zero Point Mechanics
 subtitle: VR Content
 layout: default
 modal-id: 10
-date: 2019-03-02
+date: 2019-07-21
 img: zpmech.PNG
 thumbnail: zpmech-thumbnail.png
 alt: image-alt
-project-date: March 2019
-company: High Fidelity
+project-date: July 2019
+company: Personal
 category: VR Content
 code: https://github.com/MarkBrosche/hifi-content/tree/master/marketplaceItems/vendingMachine
 description: 
