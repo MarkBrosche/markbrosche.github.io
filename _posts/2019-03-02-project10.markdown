@@ -10,7 +10,7 @@ alt: image-alt
 project-date: July 2019
 company: Personal
 category: VR Content
-code: 
+code: "#"
 description: 
-This is my first project working with the Oculus Quest.  Back in the early days of VR, we were more or less promised that we'd be playing Half Life in VR in only a couple of years.  Nearly 5 years later and nothing to show, I decided I would recreate the gravity gun from Half Life to to play with in VR.  I'm making this with Unity 2019.2 LWRP and VRTK v4.  My goals are to faithfully recreate Valve's iconic weapon, provide a satisfying physics sandbox and puzzler environment, and reveal the untold origins of the gravity gun and how it came to Black Mesa East prior to the events of Half Life 2.
+Back in the early days of VR, 
 ---
