@@ -1,14 +1,14 @@
 ---
-title: Zero Point Mechanics
-subtitle: VR Content
+title: Zero Point 
+subtitle: VR 
 layout: default
 modal-id: 10
 date: 2019-07-21
-img: zpmech.PNG
+img: leap.png
 thumbnail: zpmech-thumbnail.png
 alt: image-alt
 project-date: July 2019
-company: Personal
+company: none
 category: VR Content
 code: "#"
 description: 
