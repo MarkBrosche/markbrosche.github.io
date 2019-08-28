@@ -2,10 +2,10 @@
 title: Trivia
 subtitle: VR Content
 layout: default
-modal-id: 14
+modal-id: 11
 date: 2015-10-15
-img: leap.png
-thumbnail: leap-thumbnail.png
+img: trivia.png
+thumbnail: trivia-thumbnail.png
 alt: image-alt
 project-date: October 2018
 company: High Fidelity
