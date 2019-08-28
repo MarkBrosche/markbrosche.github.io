@@ -83,7 +83,7 @@ h6 {
     text-transform: uppercase;
     font-weight: 700;
     color: rgb(255, 255, 255);
-    background-color: rgba(77, 77, 77, 0.705);
+    background-color: rgba(102, 102, 102, 0.705);
     font-family: {{ site.data.template.font.primary }};
 }
 
@@ -142,7 +142,7 @@ fieldset[disabled] .btn-primary.active {
     font-size: 18px;
     font-weight: 700;
     color: #fff;
-    background: rgba(0, 0, 0, 0.801);
+    background: rgba(129, 129, 129, 0.801);
     font-family: {{ site.data.template.font.primary }};
 }
 
@@ -382,7 +382,7 @@ header .intro-text .intro-heading {
 }
 
 section {
-    padding: 100px 0;
+    padding: 50px 0;
 }
 
 section h2.section-heading {
@@ -402,7 +402,7 @@ section h3.section-subheading {
 
 @media(min-width:768px) {
     section {
-        padding: 150px 0;
+        padding: 50px 0;
     }
 }
 
