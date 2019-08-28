@@ -1,0 +1,16 @@
+---
+title: Trivia
+subtitle: VR Content
+layout: default
+modal-id: 11
+date: 2018-10-15
+img: leap.png
+thumbnail: leap-thumbnail.png
+alt: image-alt
+project-date: October 2018
+company: High Fidelity
+category: VR Content
+code: https://github.com/MarkBrosche/hifi-content/tree/master/events/lastAvatarStandingTrivia
+description: "Last Avatar Standing" was a trivia game made in High Fidelity where a host would put questions and answers on board, and players had to move themselves onto the corresponding colored square to pick the answer they believed was right.  If correct, players remain on the board and the prize money increases. If incorrect, players are teleported out of the game.  The last player remaining wins whatever cash is in the prize pot.  This event featured in its own domain, as well as many High Fidelity events such as FUTVRELANDS, Zombie Island, Load Tests, Multi-Con and more.
+
+---
