@@ -10,11 +10,5 @@ alt: image-alt
 project-date: September 2019
 client: Personal
 category: VR Content
-description: This is my first project working with the Oculus Quest.  Eventually I will extend it to the Valve Index / PC VR, but initially I'm targeting the Quest for accessibility.  At any rate back in the early days of VR, we were more or less promised that we'd be playing Half Life in VR in only a couple of years.  Nearly 5 years later and nothing to show, I decided I would recreate the gravity gun from Half Life to to play with in VR.
-
-I'm making this with Unity 2019.2 LWRP, and VRTK v4.
-
-My goals are to faithfully recreate Valve's iconic weapon, provide a satisfying physics sandbox and puzzler environment, and reveal the untold origins of the gravity gun and how it came to Black Mesa East prior to the events of Half Life 2.
-
-
+description: I collaborated with my team lead to create this item for the High Fidelity Marketplace.  The vending machine allows users to populate it with marketplace items they curate for other users to easily access within their domains.  Useful for easy access to apps or items the owner wishes to advertise or to pair with events in their domain.  This item was created with instructions on Github so High Fidelity users could break it down and list their variants of it on the marketplace.
 ---
