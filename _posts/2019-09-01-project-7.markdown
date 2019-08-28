@@ -2,8 +2,8 @@
 title: Zero Point Mechanics
 subtitle: Oculus Quest
 layout: default
-modal-id: 12
-date: 2013-01-01
+modal-id: 10
+date: 2019-07-01
 img: zpmech.PNG
 thumbnail: zpmech-thumbnail.png
 alt: image-alt
