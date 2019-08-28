@@ -2,7 +2,7 @@
 title: Apartment Photogrammetry
 subtitle: VR Content
 layout: default
-modal-id: 12
+modal-id: 3
 date: 2017-04-22
 img: apt.PNG
 thumbnail: apt-thumbnail.png
