@@ -3,7 +3,7 @@ title: Trivia
 subtitle: VR Content
 layout: default
 modal-id: 14
-date: 2018-10-15
+date: 2015-10-15
 img: leap.png
 thumbnail: leap-thumbnail.png
 alt: image-alt
