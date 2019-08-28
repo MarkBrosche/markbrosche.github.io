@@ -4,8 +4,8 @@ subtitle: VR Content
 layout: default
 modal-id: 10
 date: 2019-03-02
-img: vendmo.jpg
-thumbnail: vendmo-thumbnail.png
+img: zpmech.jpg
+thumbnail: zpmech-thumbnail.png
 alt: image-alt
 project-date: March 2019
 company: High Fidelity
