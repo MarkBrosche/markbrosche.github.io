@@ -10,7 +10,7 @@ alt: image-alt
 project-date: July 2018
 company: Personal
 category: VR Content
-code: https://www.google.com
+code: not publicly available
 description: As a life-long lover of music and former trombone player, I wanted to merge my love for VR/AR with music performance that mirrored real life trombone-playing.  I set this project aside before I got too far, but I plan on returning to it at some point.  The goal is to make it such that you could theoretically take your vr headset and a speaker out on the street and play the virtual trombone for passers-by.
 
 ---
