@@ -10,6 +10,7 @@ alt: image-alt
 project-date: February 2018
 company: Personal
 category: VR Content
+link: Github Repo
 code: https://github.com/MarkBrosche/Leap-Motion-Vizard-SteamVR-Module
 description: I was using the WorldViz engine "Vizard" for another project and it was lacking native support for the Leap Motion hand tracker, so I wrote a python module for it using Leap Motion's python library.  The module can easily be imported into any Vizard v5.8 project and supports Leap Motion's Orion software update v3.1, and SteamVR. VR is not strictly required, but that is what I wrote the module for.
 

@@ -10,7 +10,7 @@ alt: image-alt
 project-date: April 2017
 company: Personal
 category: VR Content
-code: not publicly available
+link: Not Public
 description: I made a photogrammetry scan of my apartment using my cell phone and Agisoft Photoscan.
 
 ---

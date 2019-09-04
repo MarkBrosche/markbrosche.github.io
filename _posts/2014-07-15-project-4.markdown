@@ -10,6 +10,7 @@ alt: image-alt
 project-date: March 2019
 company: High Fidelity
 category: VR Content
+link: YouTube
 code: https://youtu.be/2KmXllrBNHw
 description: The MythBusters build team were a featured panel at High Fidelity's Multi-Con event.  They spoke about their post-MythBusting careers and answered questions from the audience.  Of course, they couldn't have a MythBusters event without an explosion, so I created an exploding cartoon rocket with none other than a ragdoll avatar of Buster the crash-test dummy for them to fire off live during the event!  They loved it and the crowd ate it up.
 
